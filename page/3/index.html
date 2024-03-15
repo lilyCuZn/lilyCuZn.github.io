@@ -11,8 +11,8 @@
     <meta property="og:type" content="article">
 
     
-    <meta property="og:image" content="https://lilycuzn.github.io/img/home-bg-jeep.jpg">
-    <meta property="twitter:image" content="https://lilycuzn.github.io/img/home-bg-jeep.jpg" />
+    <meta property="og:image" content="https://lilycuzn.github.io/img/buildings.jpg">
+    <meta property="twitter:image" content="https://lilycuzn.github.io/img/buildings.jpg" />
     
 
     
@@ -103,7 +103,15 @@
                     
                         
                         <li>
+                            <a href="/categories/books/">books</a>
+                        </li>
+                        
+                        <li>
                             <a href="/categories/life/">life</a>
+                        </li>
+                        
+                        <li>
+                            <a href="/categories/notes/">notes</a>
                         </li>
                         
                         <li>
@@ -164,7 +172,7 @@
 
 
 
-<header class="intro-header" style="background-image: url('/img/home-bg-jeep.jpg')">
+<header class="intro-header" style="background-image: url('/img/buildings.jpg')">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 ">
@@ -194,6 +202,89 @@
         ">
             
 <div data-pagefind-ignore="all">
+
+<div class="post-preview">
+    <a href="https://lilycuzn.github.io/2018/05/22/user_authentication_authorization/">
+        <h2 class="post-title">
+            微服务安全沉思录之一
+        </h2>
+	
+        <h3 class="post-subtitle">
+            用户访问认证与鉴权
+        </h3>
+	
+        <div class="post-content-preview">
+	
+            这段时间对之前微服务安全相关的一些想法进行了进一步总结和归纳，理清在之前文章里面没有想得太清楚的地方，例如服务间的认证与鉴权以及用户身份在服务调用链中的传递。在这一系列博客里面将分为三个部分对微服务安全进行系统阐述：用户访问认证与鉴权，服务间认证与鉴权，外部系统访问控制。
+        
+        </div>
+    </a>
+    <p class="post-meta">
+    
+        Posted by     &#34;赵化冰&#34; on Wednesday, May 23, 2018
+        
+        
+    
+    </p>
+
+</div>
+<hr>
+
+<div class="post-preview">
+    <a href="https://lilycuzn.github.io/2018/05/23/istio-auto-injection-with-webhook/">
+        <h2 class="post-title">
+            Istio Sidecar自动注入原理
+        </h2>
+	
+        <h3 class="post-subtitle">
+            Kubernetes webhook扩展机制解析
+        </h3>
+	
+        <div class="post-content-preview">
+	
+            Kubernets 1.9版本引入了Admission Webhook(web 回调)扩展机制，通过Webhook,开发者可以非常灵活地对Kubernets API Server的功能进行扩展，在API Server创建资源时对资源进行验证或者修改。 Istio 0.7版本就利用了Kubernets webhook实现了sidecar的自动注入。
+        
+        </div>
+    </a>
+    <p class="post-meta">
+    
+        Posted by     &#34;赵化冰&#34; on Wednesday, May 23, 2018
+        
+        
+    
+    </p>
+
+</div>
+<hr>
+
+<div class="post-preview">
+    <a href="https://lilycuzn.github.io/2018/05/01/may-day-jiulonghu/">
+        <h2 class="post-title">
+            川西秘境探险
+        </h2>
+	
+        <h3 class="post-subtitle">
+            2018五一甘堡藏寨，九龙湖自驾游记
+        </h3>
+	
+        <div class="post-content-preview">
+	
+            <h2 id="寻浮云牧场不遇">寻浮云牧场不遇</h2>
+<p>五一节前的一周内，几个朋友就纷纷坐不住了，一个二个不再安心上班，开始在微信群里讨论过节要到哪里耍。
+大家思来想去，最后决定还是去理县方向。因为根据多年自驾的经验，只要出了汶川，沿途都是风景。</p>
+       
+        </div>
+    </a>
+    <p class="post-meta">
+    
+        Posted by 赵化冰 on Tuesday, May 1, 2018
+        
+        
+    
+    </p>
+
+</div>
+<hr>
 
 <div class="post-preview">
     <a href="https://lilycuzn.github.io/2018/04/16/using-helm-to-deploy-to-kubernetes/">
@@ -237,79 +328,6 @@
     <p class="post-meta">
     
         Posted by 赵化冰 on Wednesday, April 11, 2018
-        
-        
-    
-    </p>
-
-</div>
-<hr>
-
-<div class="post-preview">
-    <a href="https://lilycuzn.github.io/2018/03/29/what-is-service-mesh-and-istio/">
-        <h2 class="post-title">
-            谈谈微服务架构中的基础设施：Service Mesh与Istio
-        </h2>
-	
-        <h3 class="post-subtitle">
-            Service Mesh模式及Istio开源项目介绍
-        </h3>
-	
-        <div class="post-content-preview">
-	
-            作为一种架构模式，微服务将复杂系统切分为数十乃至上百个小服务，每个服务负责实现一个独立的业务逻辑。这些小服务易于被小型的软件工程师团队所理解和修改，并带来了语言和框架选择灵活性，缩短应用开发上线时间，可根据不同的工作负载和资源要求对服务进行独立缩扩容等优势。另一方面，当应用被拆分为多个微服务进程后，进程内的方法调用变成了了进程间的远程调用。引入了对大量服务的连接、管理和监控的复杂性,本文介绍了Service Mesh模式如何应对微服务架构的这些挑战，以及Service Mesh的明星开源项目Istio。
-        
-        </div>
-    </a>
-    <p class="post-meta">
-    
-        Posted by 赵化冰 on Thursday, March 29, 2018
-        
-        
-    
-    </p>
-
-</div>
-<hr>
-
-<div class="post-preview">
-    <a href="https://lilycuzn.github.io/2018/03/13/use-docker-behind-http-proxy/">
-        <h2 class="post-title">
-            如何配置docker使用HTTP代理
-        </h2>
-	
-        <div class="post-content-preview">
-	
-            如何配置docker使用HTTP代理
-        
-        </div>
-    </a>
-    <p class="post-meta">
-    
-        Posted by 赵化冰 on Tuesday, March 13, 2018
-        
-        
-    
-    </p>
-
-</div>
-<hr>
-
-<div class="post-preview">
-    <a href="https://lilycuzn.github.io/2018/02/09/vim-tips/">
-        <h2 class="post-title">
-            Vim Tips
-        </h2>
-	
-        <div class="post-content-preview">
-	
-            Vim Tips and tricks
-        
-        </div>
-    </a>
-    <p class="post-meta">
-    
-        Posted by 赵化冰 on Friday, February 9, 2018
         
         
     
@@ -364,7 +382,7 @@
            <ul class="list-inline">
                
                <li>
-                   <a href="mailto:youremail@gmail.com">
+                   <a href="mailto:1447579779@qq.com">
                       <span class="fa-stack fa-lg">
                           <i class="fa fa-circle fa-stack-2x"></i>
                           <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
@@ -377,18 +395,9 @@
                
                
                
-               <li>
-                   <a target="_blank" href="/your%20wechat%20qr%20code%20image">
-                       <span class="fa-stack fa-lg">
-                           <i class="fas fa-circle fa-stack-2x"></i>
-                           <i class="fab fa-weixin fa-stack-1x fa-inverse"></i>
-                       </span>
-                   </a>
-               </li>
-               
                
                <li>
-                   <a target="_blank" href="https://github.com/yourgithub">
+                   <a target="_blank" href="https://github.com/lilyCuZn">
                        <span class="fa-stack fa-lg">
                            <i class="fas fa-circle fa-stack-2x"></i>
                            <i class="fab fa-github fa-stack-1x fa-inverse"></i>
@@ -442,6 +451,8 @@
                
             
                
+            
+               
                     <a href="/tags/docker" title="docker">
                         docker
                     </a>
@@ -470,6 +481,8 @@
                
             
                
+            
+               
                     <a href="/tags/security" title="security">
                         security
                     </a>
@@ -491,6 +504,12 @@
             
                
             
+               
+            
+               
+                    <a href="/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0" title="读书笔记">
+                        读书笔记
+                    </a>
                
             
         </div>
@@ -519,6 +538,9 @@
 
 
 
+
+
+
 <footer>
     <div class="container">
         <div class="row">
@@ -526,7 +548,7 @@
                 <ul class="list-inline text-center">                  
                     
                     <li>
-                        <a href="mailto:youremail@gmail.com">
+                        <a href="mailto:1447579779@qq.com">
                             <span class="fa-stack fa-lg">
                                 <i class="fas fa-circle fa-stack-2x"></i>
                                 <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
@@ -541,18 +563,9 @@
 
 		            
                     
-                    <li>
-                        <a target="_blank" href="/your%20wechat%20qr%20code%20image">
-                            <span class="fa-stack fa-lg">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-weixin fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-		            
                     
                     <li>
-                        <a target="_blank" href="https://github.com/yourgithub">
+                        <a target="_blank" href="https://github.com/lilyCuZn">
                             <span class="fa-stack fa-lg">
                                 <i class="fas fa-circle fa-stack-2x"></i>
                                 <i class="fab fa-github fa-stack-1x fa-inverse"></i>

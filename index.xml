@@ -6,21 +6,35 @@
     <description>Recent content on 一簇枣泥的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 25 Feb 2024 01:35:36 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 15 Mar 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://lilycuzn.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>First</title>
-      <link>https://lilycuzn.github.io/post/first/</link>
-      <pubDate>Sun, 25 Feb 2024 01:35:36 +0800</pubDate>
-      <guid>https://lilycuzn.github.io/post/first/</guid>
-      <description>这是我的第一条博客</description>
+      <title>《1984》读后感</title>
+      <link>https://lilycuzn.github.io/post/2024-03-15-1984/</link>
+      <pubDate>Fri, 15 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://lilycuzn.github.io/post/2024-03-15-1984/</guid>
+      <description></description>
     </item>
     <item>
-      <title>First</title>
-      <link>https://lilycuzn.github.io/posts/first/</link>
-      <pubDate>Sun, 25 Feb 2024 01:35:36 +0800</pubDate>
-      <guid>https://lilycuzn.github.io/posts/first/</guid>
-      <description>这是我的第一条博客</description>
+      <title>《白夜行》读后感</title>
+      <link>https://lilycuzn.github.io/post/2024-03-15-%E7%99%BD%E5%A4%9C%E8%A1%8C/</link>
+      <pubDate>Sat, 02 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://lilycuzn.github.io/post/2024-03-15-%E7%99%BD%E5%A4%9C%E8%A1%8C/</guid>
+      <description>感觉最近看了好多书（相对上个学期），决定做做读书笔记，那就从《白夜行》开始吧。 对这本东野圭吾的小说早有耳闻，终于在开学第一周比较闲的时候两个</description>
+    </item>
+    <item>
+      <title>我的第一条博客</title>
+      <link>https://lilycuzn.github.io/post/first/</link>
+      <pubDate>Sun, 25 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://lilycuzn.github.io/post/first/</guid>
+      <description>这是我的第一条博客 一个月前用了hermit主题成功用hugo部署了自己的博客网站，这个月突发奇想换一个有目录、看起来更活泼的主题。 两个帮助很</description>
+    </item>
+    <item>
+      <title>[BUAA-CO]P3-用Logisim搭建单周期CPU</title>
+      <link>https://lilycuzn.github.io/post/2023-11-05-buaa-p3-%E5%8D%95%E5%91%A8%E6%9C%9Fcpu/</link>
+      <pubDate>Sun, 05 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://lilycuzn.github.io/post/2023-11-05-buaa-p3-%E5%8D%95%E5%91%A8%E6%9C%9Fcpu/</guid>
+      <description>P3_L0_document:CPU初搭建！（Logisim) 设计方案 1.controller 输出信号 add sub ori lw sw beq lui jal ALUSrc 0 0 1 1 1 0 0 0 ALUop 0000 0001 0010 0000 0000 0001 0 0 MemWrite 0 0 0</description>
     </item>
     <item>
       <title>Clean White Theme for Hugo</title>

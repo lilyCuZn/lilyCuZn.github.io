@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>BUAA-CO on 一簇枣泥的博客</title>
+    <link>https://lilycuzn.github.io/tags/buaa-co/</link>
+    <description>Recent content in BUAA-CO on 一簇枣泥的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sun, 05 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://lilycuzn.github.io/tags/buaa-co/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[BUAA-CO]P3-用Logisim搭建单周期CPU</title>
+      <link>https://lilycuzn.github.io/post/2023-11-05-buaa-p3-%E5%8D%95%E5%91%A8%E6%9C%9Fcpu/</link>
+      <pubDate>Sun, 05 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://lilycuzn.github.io/post/2023-11-05-buaa-p3-%E5%8D%95%E5%91%A8%E6%9C%9Fcpu/</guid>
+      <description>P3_L0_document:CPU初搭建！（Logisim) 设计方案 1.controller 输出信号 add sub ori lw sw beq lui jal ALUSrc 0 0 1 1 1 0 0 0 ALUop 0000 0001 0010 0000 0000 0001 0 0 MemWrite 0 0 0</description>
+    </item>
+  </channel>
+</rss>
