@@ -6,8 +6,15 @@
     <description>Recent content in BUAA-OO on 一簇枣泥的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 20 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 19 Apr 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://lilycuzn.github.io/tags/buaa-oo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>【BUAA-OO】M2：电梯</title>
+      <link>https://lilycuzn.github.io/post/2024-04-20-buaa-oo-m2/</link>
+      <pubDate>Fri, 19 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://lilycuzn.github.io/post/2024-04-20-buaa-oo-m2/</guid>
+      <description>题目概述 第二单元的作业主要解决了六个电梯运送一群乘客的电梯调度与乘客分配问题。第一次作业中乘客指定电梯，第二、三次作业中乘客不指定电梯。 注：</description>
+    </item>
     <item>
       <title>【BUAA-OO】M1:表达式化简</title>
       <link>https://lilycuzn.github.io/post/2024-03-20-buaa-oo-module1/</link>
